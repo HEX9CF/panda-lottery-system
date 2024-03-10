@@ -1,0 +1,35 @@
+{
+  "name": "panda-lottery-system",
+  "version": "1.0.0",
+  "description": "panda-lottery-system",
+  "author": "HEX9CF",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "岁岁廿廿的节气抽奖",
+    "productName": "岁岁廿廿的节气抽奖",
+    "icon": "public/logo.png",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "devDependencies": {
+    "electron": "^27.3.5",
+    "electron-builder": "^24.6.4",
+    "path": "^0.12.7"
+  }
+}
