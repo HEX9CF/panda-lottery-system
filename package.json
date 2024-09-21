@@ -1,7 +1,7 @@
 {
-  "name": "panda-lottery-system",
+  "name": "panda-lottery-game",
   "version": "1.0.0",
-  "description": "panda-lottery-system",
+  "description": "panda-lottery-game",
   "author": "HEX9CF",
   "main": "main.js",
   "scripts": {
